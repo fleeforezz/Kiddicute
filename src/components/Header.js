@@ -1,0 +1,89 @@
+"use client"
+import { MagnifyingGlass } from "@phosphor-icons/react"
+import { Heart } from "@phosphor-icons/react"
+import { ShoppingBag } from "@phosphor-icons/react"
+import { CaretDown } from "@phosphor-icons/react"
+
+export default function Header() {
+    return (
+        <main>
+            <header className="bg-[#e5bdb5] py-1">
+                <div className="max-w-full w-[95%] m-auto flex justify-between">
+                    <p className="text-[#176560] text-[0.9rem] font-semibold">
+                        Miễn phí vận chuyển cho đơn trên 120$
+                    </p>
+
+                    <div className="flex items-center gap-5 text-[#176560] text-[0.85rem] font-semibold">
+                        <a href="">
+                            DS Shop
+                        </a>
+                        <a href="">
+                            Hỗ Trợ
+                        </a>
+                        <a href="">
+                            Tham Gia
+                        </a>
+                        <a href="">
+                            Đăng Nhập
+                        </a>
+                        <a href="" className="flex gap-1 items-center">
+                            VN
+                            <CaretDown size={14} weight="bold" />
+                        </a>
+                    </div>
+                </div>
+            </header>
+
+            <nav>
+                <div className="max-w-full w-[95%] m-auto flex items-center justify-between">
+                    <a href="" className="flex items-center">
+                        <img src="/Icon.png" className="w-[64px]" />
+                        <span className="font-semibold text-[2rem] text-[#176560]">
+                            Kiddicute
+                        </span>
+                    </a>
+
+                    <div className="flex gap-6 font-medium">
+                        <a href="">
+                            Mới & Nỗi bật
+                        </a>
+                        <a href="">
+                            Bé Gái
+                        </a>
+                        <a href="">
+                            Bé Trai
+                        </a>
+                        <a href="">
+                            Bộ Sưu Tập
+                        </a>
+                        <a href="">
+                            Sale
+                        </a>
+                        <a href="">
+                            Shop
+                        </a>
+                        <a href="">
+                            Tin Tức
+                        </a>
+                    </div>
+
+                    <div className="flex items-center gap-5">
+                        <div className="flex bg-slate-100 px-2 py-1 rounded-full gap-1">
+                            <a href="">
+                                <MagnifyingGlass size={32} className="p-1 bg-slate-100 rounded-full hover:bg-slate-300" />
+                            </a>
+                            <input placeholder="Search" className="bg-slate-100 outline-none w-[10rem]" />
+                        </div>
+
+                        <a href="">
+                            <Heart size={28} />
+                        </a>
+                        <a href="">
+                            <ShoppingBag size={28} />
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </main>
+    )
+}
