@@ -2,4 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+.new::before {
+  position: absolute;
+  content: '';
+  width: 0%;
+  height: 2px;
+  bottom: -5px;
+  background-color: black;
+  transition: 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.new:hover::before {
+  width: 100%;
+}
 
+.transition-animate {
+  transition: 250ms;
+}

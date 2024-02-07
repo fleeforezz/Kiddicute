@@ -7,7 +7,7 @@ import { CaretDown } from "@phosphor-icons/react"
 export default function Header() {
     return (
         <main>
-            <header className="bg-[#e5bdb5] py-1">
+            <header className="bg-[#faedea] py-1">
                 <div className="max-w-full w-[95%] m-auto flex justify-between">
                     <p className="text-[#176560] text-[0.9rem] font-semibold">
                         Miễn phí vận chuyển cho đơn trên 120$
@@ -34,7 +34,7 @@ export default function Header() {
                 </div>
             </header>
 
-            <nav>
+            <nav className="py-2">
                 <div className="max-w-full w-[95%] m-auto flex items-center justify-between">
                     <a href="" className="flex items-center">
                         <img src="/Icon.png" className="w-[64px]" />
@@ -43,27 +43,24 @@ export default function Header() {
                         </span>
                     </a>
 
-                    <div className="flex gap-6 font-medium">
-                        <a href="">
+                    <div className="flex gap-7 font-medium">
+                        <a href="" className="relative new">
                             Mới & Nỗi bật
                         </a>
-                        <a href="">
+                        <a href="" className="relative new">
                             Bé Gái
                         </a>
-                        <a href="">
+                        <a href="" className="relative new">
                             Bé Trai
                         </a>
-                        <a href="">
+                        <a href="" className="relative new">
                             Bộ Sưu Tập
                         </a>
-                        <a href="">
+                        <a href="" className="relative new">
                             Sale
                         </a>
-                        <a href="">
+                        <a href="" className="relative new">
                             Shop
-                        </a>
-                        <a href="">
-                            Tin Tức
                         </a>
                     </div>
 
