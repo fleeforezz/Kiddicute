@@ -11,10 +11,10 @@ export default function Toprate() {
                     </p>
                 </div>
 
-                <div className="flex gap-5 overflow-auto">
-                    <a href="" className="flex flex-col gap-3 px-[15px] py-[15px] bg-[#f7f7f7] rounded-2xl">
+                <div className="scroll flex gap-5 overflow-auto pb-[50px]">
+                    <a href="" className="flex flex-col gap-3 px-[15px] py-[15px] bg-[#eeeeee] rounded-2xl transition-animate hover:scale-[0.98]">
                         <span className="px-[15px] py-[5px] bg-[#0b312f] text-white rounded-full w-fit">sale</span>
-                        <img src="/product-1.png" className="w-[450px] h-[600px] object-contain" />
+                        <img src="/product-1.png" className="w-[555px] h-[555px] max-w-[none] object-contain" />
                         <h3 className="font-semibold text-[1rem]">
                             Đầm bèo
                         </h3>
@@ -26,9 +26,9 @@ export default function Toprate() {
                         </span>
                     </a>
 
-                    <a href="" className="flex flex-col gap-3 px-[15px] py-[15px] bg-[#f7f7f7] rounded-2xl">
+                    <a href="" className="flex flex-col gap-3 px-[15px] py-[15px] bg-[#eeeeee] rounded-2xl transition-animate hover:scale-[0.98]">
                         <span className="px-[15px] py-[5px] bg-[#0b312f] text-white rounded-full w-fit">sale</span>
-                        <img src="/product-1.png" className="w-[450px] h-[600px] object-contain" />
+                        <img src="/product-2.png" className="w-[555px] h-[555px] max-w-[none] object-contain" />
                         <h3 className="font-semibold text-[1rem]">
                             Đầm bèo
                         </h3>
@@ -40,9 +40,9 @@ export default function Toprate() {
                         </span>
                     </a>
 
-                    <a href="" className="flex flex-col gap-3 px-[15px] py-[15px] bg-[#f7f7f7] rounded-2xl">
+                    <a href="" className="flex flex-col gap-3 px-[15px] py-[15px] bg-[#eeeeee] rounded-2xl transition-animate hover:scale-[0.98]">
                         <span className="px-[15px] py-[5px] bg-[#0b312f] text-white rounded-full w-fit">sale</span>
-                        <img src="/product-1.png" className="w-[450px] h-[600px] object-contain" />
+                        <img src="/product-3.png" className="w-[555px] h-[555px] max-w-[none] object-contain" />
                         <h3 className="font-semibold text-[1rem]">
                             Đầm bèo
                         </h3>
@@ -54,9 +54,9 @@ export default function Toprate() {
                         </span>
                     </a>
 
-                    <a href="" className="flex flex-col gap-3 px-[15px] py-[15px] bg-[#f7f7f7] rounded-2xl">
+                    <a href="" className="flex flex-col gap-3 px-[15px] py-[15px] bg-[#eeeeee] rounded-2xl transition-animate hover:scale-[0.98]">
                         <span className="px-[15px] py-[5px] bg-[#0b312f] text-white rounded-full w-fit">sale</span>
-                        <img src="/product-1.png" className="w-[450px] h-[600px] object-contain" />
+                        <img src="/product-3.png" className="w-[555px] h-[555px] max-w-[none] object-contain" />
                         <h3 className="font-semibold text-[1rem]">
                             Đầm bèo
                         </h3>
@@ -68,9 +68,9 @@ export default function Toprate() {
                         </span>
                     </a>
 
-                    <a href="" className="flex flex-col gap-3 px-[15px] py-[15px] bg-[#f7f7f7] rounded-2xl">
+                    <a href="" className="flex flex-col gap-3 px-[15px] py-[15px] bg-[#eeeeee] rounded-2xl transition-animate hover:scale-[0.98]">
                         <span className="px-[15px] py-[5px] bg-[#0b312f] text-white rounded-full w-fit">sale</span>
-                        <img src="/product-1.png" className="w-[450px] h-[600px] object-contain" />
+                        <img src="/product-2.png" className="w-[555px] h-[555px] max-w-[none] object-contain" />
                         <h3 className="font-semibold text-[1rem]">
                             Đầm bèo
                         </h3>
@@ -82,9 +82,9 @@ export default function Toprate() {
                         </span>
                     </a>
 
-                    <a href="" className="flex flex-col gap-3 px-[15px] py-[15px] bg-[#f7f7f7] rounded-2xl">
+                    <a href="" className="flex flex-col gap-3 px-[15px] py-[15px] bg-[#eeeeee] rounded-2xl transition-animate hover:scale-[0.98]">
                         <span className="px-[15px] py-[5px] bg-[#0b312f] text-white rounded-full w-fit">sale</span>
-                        <img src="/product-1.png" className="w-[450px] h-[600px] object-contain" />
+                        <img src="/product-1.png" className="w-[555px] h-[555px] max-w-[none] object-contain" />
                         <h3 className="font-semibold text-[1rem]">
                             Đầm bèo
                         </h3>
@@ -96,9 +96,9 @@ export default function Toprate() {
                         </span>
                     </a>
 
-                    <a href="" className="flex flex-col gap-3 px-[15px] py-[15px] bg-[#f7f7f7] rounded-2xl">
+                    <a href="" className="flex flex-col gap-3 px-[15px] py-[15px] bg-[#eeeeee] rounded-2xl transition-animate hover:scale-[0.98]">
                         <span className="px-[15px] py-[5px] bg-[#0b312f] text-white rounded-full w-fit">sale</span>
-                        <img src="/product-1.png" className="w-[450px] h-[600px] object-contain" />
+                        <img src="/product-2.png" className="w-[555px] h-[555px] max-w-[none] object-contain" />
                         <h3 className="font-semibold text-[1rem]">
                             Đầm bèo
                         </h3>
@@ -109,6 +109,24 @@ export default function Toprate() {
                             290.000đ
                         </span>
                     </a>
+                </div>
+
+                <div className="pt-20 grid grid-cols-5 gap-7">
+                    <div className="col-span-3">
+                        <img src="/bento-img-2.jpg" className="w-[2000px] h-[500px] object-cover rounded-2xl" />
+                    </div>
+
+                    <div className=" col-span-2">
+                        <img src="/bento-img-1.jpg" className="w-[2000px] h-[500px] object-cover rounded-2xl" />
+                    </div>
+
+                    <div className=" col-span-2">
+                        <img src="/bento-img-4.jpg" className="w-[2000px] h-[500px] object-cover rounded-2xl" />
+                    </div>
+
+                    <div className=" col-span-3">
+                        <img src="/bento-img-3.jpg" className="w-[2000px] h-[500px] object-cover rounded-2xl" />
+                    </div>
                 </div>
             </div>
         </section>
