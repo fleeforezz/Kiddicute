@@ -1,6 +1,7 @@
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import Toprate from '@/components/Toprate'
+import Trending from '@/components/Trending'
 import Image from 'next/image'
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Toprate />
+      <Trending />
     </>
   )
 }

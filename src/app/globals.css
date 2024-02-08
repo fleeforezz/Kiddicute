@@ -18,6 +18,15 @@
 .transition-animate {
   transition: 250ms;
 }
+.transition-animate-slow {
+  transition: 700ms;
+}
+.transition-animate-superslow {
+  transition: 3500ms;
+}
+.gradient-background {
+  background: linear-gradient(RightToLeft, red blue);
+}
 
 .scroll {
   scroll-snap-type: x mandatory;
@@ -33,4 +42,8 @@
 }
 .scroll::-webkit-scrollbar-thumb {
   background-color: #6e6e6e;
+}
+
+.link.img:hover {
+  filter: blur(100px);
 }

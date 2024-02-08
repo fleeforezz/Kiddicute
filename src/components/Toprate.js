@@ -112,20 +112,48 @@ export default function Toprate() {
                 </div>
 
                 <div className="pt-20 grid grid-cols-5 gap-7">
-                    <div className="col-span-3">
-                        <img src="/bento-img-2.jpg" className="w-[2000px] h-[500px] object-cover rounded-2xl" />
+                    <div className="col-span-3 relative rounded-2xl overflow-hidden">
+                        <div className="absolute text-white text-center bottom-[15%] left-[15%] translate-x-[-50%] gradient-background z-50">
+                            <a href="" className="link text-[1.1rem] font-medium px-[50px] py-[15px] bg-white text-black rounded-full">
+                                Mua Ngay
+                            </a>
+                        </div>
+                        <div>
+                            <img src="/bento-img-2.jpg" className="img w-[2000px] h-[500px] object-cover transition-animate-superslow hover:scale-[1.1]" />
+                        </div>
                     </div>
 
-                    <div className=" col-span-2">
-                        <img src="/bento-img-1.jpg" className="w-[2000px] h-[500px] object-cover rounded-2xl" />
+                    <div className="col-span-2 relative rounded-2xl overflow-hidden">
+                        <div className="absolute text-white text-center bottom-[15%] left-[15%] translate-x-[-50%] gradient-background z-50">
+                            <a href="" className="link text-[1.1rem] font-medium px-[50px] py-[15px] bg-white text-black rounded-full">
+                                Mua Ngay
+                            </a>
+                        </div>
+                        <div>
+                            <img src="/bento-img-1.jpg" className="img w-[2000px] h-[500px] object-cover transition-animate-superslow hover:scale-[1.1]" />
+                        </div>
                     </div>
 
-                    <div className=" col-span-2">
-                        <img src="/bento-img-4.jpg" className="w-[2000px] h-[500px] object-cover rounded-2xl" />
+                    <div className="col-span-2 relative rounded-2xl overflow-hidden">
+                        <div className="absolute text-white text-center bottom-[15%] left-[15%] translate-x-[-50%] gradient-background z-50">
+                            <a href="" className="link text-[1.1rem] font-medium px-[50px] py-[15px] bg-white text-black rounded-full">
+                                Mua Ngay
+                            </a>
+                        </div>
+                        <div>
+                            <img src="/bento-img-4.jpg" className="img w-[2000px] h-[500px] object-cover transition-animate-superslow hover:scale-[1.1]" />
+                        </div>
                     </div>
 
-                    <div className=" col-span-3">
-                        <img src="/bento-img-3.jpg" className="w-[2000px] h-[500px] object-cover rounded-2xl" />
+                    <div className="col-span-3 relative rounded-2xl overflow-hidden">
+                        <div className="absolute text-white text-center bottom-[15%] left-[15%] translate-x-[-50%] gradient-background z-50">
+                            <a href="" className="link text-[1.1rem] font-medium px-[50px] py-[15px] bg-white text-black rounded-full">
+                                Mua Ngay
+                            </a>
+                        </div>
+                        <div>
+                            <img src="/bento-img-3.jpg" className="img w-[2000px] h-[500px] object-cover transition-animate-superslow hover:scale-[1.1]" />
+                        </div>
                     </div>
                 </div>
             </div>
