@@ -33,6 +33,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/Icon.png" sizes="any" />
+      </head>
       <body className={quicksan.className}>
         {children}
       </body>

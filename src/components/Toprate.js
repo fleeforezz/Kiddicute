@@ -113,7 +113,7 @@ export default function Toprate() {
 
                 <div className="pt-20 grid grid-cols-5 gap-7">
                     <div className="col-span-3 relative rounded-2xl overflow-hidden">
-                        <div className="absolute text-white text-center bottom-[15%] left-[15%] translate-x-[-50%] gradient-background z-50">
+                        <div className="absolute text-white text-center bottom-[10%] left-[5%] gradient-background z-50">
                             <a href="" className="link text-[1.1rem] font-medium px-[50px] py-[15px] bg-white text-black rounded-full">
                                 Mua Ngay
                             </a>
@@ -124,7 +124,7 @@ export default function Toprate() {
                     </div>
 
                     <div className="col-span-2 relative rounded-2xl overflow-hidden">
-                        <div className="absolute text-white text-center bottom-[15%] left-[15%] translate-x-[-50%] gradient-background z-50">
+                        <div className="absolute text-white text-center bottom-[10%] left-[5%] gradient-background z-50">
                             <a href="" className="link text-[1.1rem] font-medium px-[50px] py-[15px] bg-white text-black rounded-full">
                                 Mua Ngay
                             </a>
@@ -135,7 +135,7 @@ export default function Toprate() {
                     </div>
 
                     <div className="col-span-2 relative rounded-2xl overflow-hidden">
-                        <div className="absolute text-white text-center bottom-[15%] left-[15%] translate-x-[-50%] gradient-background z-50">
+                        <div className="absolute text-white text-center bottom-[10%] left-[5%] gradient-background z-50">
                             <a href="" className="link text-[1.1rem] font-medium px-[50px] py-[15px] bg-white text-black rounded-full">
                                 Mua Ngay
                             </a>
@@ -146,7 +146,7 @@ export default function Toprate() {
                     </div>
 
                     <div className="col-span-3 relative rounded-2xl overflow-hidden">
-                        <div className="absolute text-white text-center bottom-[15%] left-[15%] translate-x-[-50%] gradient-background z-50">
+                        <div className="absolute text-white text-center bottom-[10%] left-[5%] gradient-background z-50">
                             <a href="" className="link text-[1.1rem] font-medium px-[50px] py-[15px] bg-white text-black rounded-full">
                                 Mua Ngay
                             </a>

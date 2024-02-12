@@ -7,9 +7,8 @@ import React from "react";
 import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button} from "@nextui-org/react";
 
 export default function Header() {
-    console.log("Hello World")
     return (
-        <main>
+        <main className="w-[100%]">
             <header className="bg-[#faedea] py-1">
                 <div className="max-w-full w-[95%] m-auto flex justify-between">
                     <p className="text-[#176560] text-[0.9rem] font-semibold">
@@ -29,10 +28,6 @@ export default function Header() {
                         <a href="" className="">
                             Đăng Nhập
                         </a>
-                        {/* <a href="" className="flex gap-1 items-center">
-                            VN
-                            <CaretDown size={14} weight="bold" />
-                        </a> */}
                         <Dropdown>
                             <DropdownTrigger>
                                 <Button
@@ -53,7 +48,7 @@ export default function Header() {
                 </div>
             </header>
 
-            <nav className="py-2 top-0">
+            <nav className="py-2 top-0 absolute w-[95%] m-[25px]">
                 <div className="max-w-full w-[95%] m-auto flex items-center justify-between">
                     <a href="" className="flex items-center">
                         <img src="/Icon.png" className="w-[64px]" />

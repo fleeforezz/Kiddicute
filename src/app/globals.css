@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  
-}
-
 .new::before {
   position: absolute;
   content: '';
