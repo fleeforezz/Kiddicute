@@ -3,8 +3,11 @@ import { MagnifyingGlass } from "@phosphor-icons/react"
 import { Heart } from "@phosphor-icons/react"
 import { ShoppingBag } from "@phosphor-icons/react"
 import { CaretDown } from "@phosphor-icons/react"
+import React from "react";
+import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button} from "@nextui-org/react";
 
 export default function Header() {
+    console.log("Hello World")
     return (
         <main>
             <header className="bg-[#faedea] py-1">
@@ -23,18 +26,34 @@ export default function Header() {
                         <a href="">
                             Tham Gia
                         </a>
-                        <a href="">
+                        <a href="" className="">
                             Đăng Nhập
                         </a>
-                        <a href="" className="flex gap-1 items-center">
+                        {/* <a href="" className="flex gap-1 items-center">
                             VN
                             <CaretDown size={14} weight="bold" />
-                        </a>
+                        </a> */}
+                        <Dropdown>
+                            <DropdownTrigger>
+                                <Button
+                                    variant="bordered"
+                                    className="flex items-center gap-1"
+                                >
+                                    VN
+                                    <CaretDown size={14} weight="bold" />
+                                </Button>
+                            </DropdownTrigger>
+                            <DropdownMenu aria-label="Static Actions" className="bg-white rounded-xl">
+                                <DropdownItem key="new">
+                                    <a href="">English</a>
+                                </DropdownItem>
+                            </DropdownMenu>
+                        </Dropdown>
                     </div>
                 </div>
             </header>
 
-            <nav className="py-2">
+            <nav className="py-2 top-0">
                 <div className="max-w-full w-[95%] m-auto flex items-center justify-between">
                     <a href="" className="flex items-center">
                         <img src="/Icon.png" className="w-[64px]" />
@@ -84,3 +103,4 @@ export default function Header() {
         </main>
     )
 }
+

@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nextui-org/react": "^2.2.9",
     "@phosphor-icons/react": "^2.0.15",
+    "framer-motion": "^11.0.3",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18"

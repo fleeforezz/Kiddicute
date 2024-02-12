@@ -1,7 +1,8 @@
 export default function Hero() {
     return (
-        <section>
-            <img src="/Hero (2).jpg" className="w-[100vw] h-[90vh] object-cover static -z-50" />
+        <section className="max-w-full w-[95%] m-auto">
+
+            <img src="/Hero (2).jpg" className="w-[100vw] h-[90vh] object-cover relative rounded-2xl" />
             
             <div className="absolute flex flex-col gap-5 top-[50%] left-[40%] translate-x-[-80%] -translate-y-[50%]">
                 <h3 className="font-semibold text-[1.5rem] text-[#3e417c] opacity-60">
