@@ -48,7 +48,7 @@ export default function Header() {
                 </div>
             </header>
 
-            <nav className="py-2 top-0 absolute w-[95%] m-[25px]">
+            <nav className="py-2 top-0 fixed w-[95%] m-[25px] z-50">
                 <div className="max-w-full w-[95%] m-auto flex items-center justify-between">
                     <a href="" className="flex items-center">
                         <img src="/Icon.png" className="w-[64px]" />
