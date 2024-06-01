@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.new::before {
+  position: absolute;
+  content: '';
+  width: 0%;
+  height: 2px;
+  bottom: -5px;
+  background-color: black;
+  transition: 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.new:hover::before {
+  width: 100%;
+}
+
+.transition-animate {
+  transition: 250ms;
+}
+.transition-animate-slow {
+  transition: 700ms;
+}
+.transition-animate-superslow {
+  transition: 3500ms;
+}
+
+.scroll {
+  scroll-snap-type: x mandatory;
+}
+.scroll > a {
+  scroll-snap-align: center;
+}
+.scroll::-webkit-scrollbar {
+  height: 0.45em;
+}
+.scroll::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.scroll::-webkit-scrollbar-thumb {
+  background-color: #6e6e6e;
+}
+
+.link.img:hover {
+  filter: blur(100px);
+}
